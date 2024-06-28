@@ -1,0 +1,44 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A9C3CF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odd or Even Number"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="75px"
+        android:layout_marginBottom="200px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number "
+        android:textColor="#000000"
+        android:layout_margin="50px"
+        android:textSize="65px" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Number"
+        android:id="@+id/num1"
+        android:layout_margin="20px"
+        android:inputType="number"
+        android:padding="20px"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:layout_margin="20px"
+        android:id="@+id/result"
+        android:background="#FFC107"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Home"
+        android:id="@+id/con"
+        android:background="#2196F3"/>
+</LinearLayout>

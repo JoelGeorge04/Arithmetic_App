@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#79B4E3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arithmetic App"
+        android:gravity="center"
+        android:textSize="75px"
+        android:textColor="#000000"
+        android:layout_marginBottom="200px"/>
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/large"
+        android:text="Find large Number !"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/small"
+        android:text="Find smallest Number !"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oddeven"
+        android:text="check odd or even !"/>
+</LinearLayout>
