@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#A9C3CF"
+    android:background="#DAE2E6"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter the Number"
         android:inputType="number"
+        android:textColor="@color/black"
         android:id="@+id/num1"
         android:layout_margin="20px"
         android:padding="20px"/>
@@ -39,6 +40,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter the Number"
         android:inputType="number"
+        android:textColor="@color/black"
         android:id="@+id/num2"
         android:padding="20px"
         android:layout_margin="20px"/>
@@ -48,11 +50,13 @@
         android:text="result"
         android:layout_margin="20px"
         android:id="@+id/result"
+        android:textColor="@color/black"
         android:background="#FFC107"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Home"
         android:id="@+id/con"
-        android:background="#2196F3"/>
+        android:textColor="@color/white"
+        android:background="#0E8DF2"/>
 </LinearLayout>
